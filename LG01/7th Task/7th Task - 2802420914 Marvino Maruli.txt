@@ -1,0 +1,4 @@
+Nama : Marvino Maruli
+NIM : 2802420914 
+
+Operator adalah sebuah tanda yang digunakan untuk melakukan operasi matematika dasar yaitu aritmatika. biasanya operator ini menandakan operasi seperti tanda + untuk pertambahan dan - untuk pengurangan. operand adalah nilai yang akan digunakan untuk melakukan operasi aritmatika. nilai tersebut akan digunakan dalam operasi menggunakan operasi aritmatika. aritmatika adalah operasi matematika yang dasar dan digunakan pada keseharian kita. operasi dalam aritmatika mencakup pertambahan, pengurangan, perkalian dan pembagian.
