@@ -1,0 +1,60 @@
+Nama : Marvino Maruli
+NIM : 2802420914 
+1. B = 23, C = 12, D = 32, E = 0
+a. A = B && E, maka A = False atau 0 karena E bernilai 0.
+b. A = B & C, maka A = 23 AND 12, A = 4.
+c. A = C || D, maka A = True atau 1 karena C dan D memiliki nilai bukan 0.
+d. A = B | D, maka A = 23 OR 32, A = 55.
+e. A = B > 2, maka A = True atau 1 karena B lebih besar dari 2.
+f. A = B >> 2, maka A = 5 karena B digeser 2 kali kearah kanan binernya. 
+g. A = C < 3, maka A = False atau 0 karena C lebih besar dari 3.
+h. A = C << 3, maka A = 96 karena digeser ke kiri 3 langkah binernya.
+i. A = B = C, maka A = B sehingga A = 12.
+j. A = B == C, maka A = 23 == 12 atau False atau 0 karena 23 tidak sama dengan 12.
+
+2.
+#include <stdio.h>
+int main() {
+int x = 10, y = 6;
+x *= 5 + y;
+printf("%d\n", x);
+return 0;
+}
+Jawaban : operand *= memiliki arti x dikalikan dengan 5 + y.
+x = x * (5 + 6)
+x = 10 * 11 maka x = 110.
+
+3. 
+#include "stdio.h"
+void main() {
+float x;
+
+x = 7 / 2;
+printf("x=%f\n", x);
+
+x = 7.0 / 2;
+printf("x=%f\n", x);
+
+x = 7 / 2.0;
+printf("x=%f\n", x);
+
+x = 7.0 / 2.0;
+printf("x=%f\n", x);
+}
+Jawaban : x1 = 7/2 maka x2 = 3.5 (diubah menjadi float), x2 = 7.0 / 2 maka x2 = 3.5, x3 = 7 / 2.0 maka x3 = 3.5, x4 = 7.0 / 2.0 maka x4 = 3.5.
+
+4. Berdasarkan kode yang diberikan maka outputnya:
+y1 = 1 karena 33 && 45 bernilai True atau 1.
+y2 = 1 karena 1 AND  45 meneghasilkan 1.
+operasi kedua:
+y3 = 33 karena 33 AND 45 menghasilkan 33.
+y4 = 1 karena 33 && 45 bernilai True atau 1.
+
+5. Program 1 = y = 11 karena nilai dari n ditambahkan 1 sebelum diberikan kepada y.
+Program 2 = y = 10 karena n di increment setelah nilai n diassign kepada y.
+Program 3 = n = 11 karena n di increment sebelum di print
+program 4 = n = 11 karena proses pre increment dilakukan sebelum print sehingga tetap ditambah 1 sebelum di print.
+
+6. z = (n > 0) ? f : b;
+dari baris kode tersebut, dapat ditentukan bahwa tipe data dari f dan b adalah sama karena untuk bisa melakukan ekspresi kondisi ?, diperlukan data tipe yang sama agar nilai yang diberikan kepada z.
+https://drive.google.com/drive/folders/1IGLb_g4IbPSpz1MlOlNTmL-VSmo6aiZX?usp=drive_link
