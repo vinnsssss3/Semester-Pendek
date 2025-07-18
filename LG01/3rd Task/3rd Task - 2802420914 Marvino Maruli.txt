@@ -1,0 +1,13 @@
+Nama : Marvino Maruli
+NIM : 2802420914
+
+1. Every C program begins execution at main function 
+TRUE, karena dalam bahasa C, program akan mulai di fungsi main()
+2. Comments cause the computer to print the text enclosed between /* and */ on the screen when the program is executed
+FALSE, dalam bahasa C, komen yang dibuat tidak akan di cetak / print. komentar akan diabaikan oleh compiler.
+3. All variables must be defined before used
+TRUE, karena agar compiler bisa compile, fungsi harus dinyatakan atau didefinisikan terlebih dahulu atau akan terjadi error.
+4. All variables must be given a type when they're defined
+TRUE. dalam bahasa pemrograman C, ada beberapa tipe data yang harus diberikan seperti int untuk data numerik, char untuk menampung data yang berisikan kalimat, dan float untuk menyimpan nilai numerik yang tidak bulat.
+5. C considers number and Number to be identical
+FALSE, karena C adalah bahasa yang sensitive terhadap penulisan nama fungsi dan variabel. C akan menganggap number dan Number sebagai 2 variabel yang berbeda.
