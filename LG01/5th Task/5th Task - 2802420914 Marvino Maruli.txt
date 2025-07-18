@@ -1,0 +1,31 @@
+1. int x, y, z, w;
+x = scanf("%d %d %d", &y, &z, &w); 
+What happens if input was 2 integer values from the keyboard?
+ketika 2 input dimasukkan ke dalam fungsi yang sudah dibuat, 2 value integer yang masuk hanya akan masuk ke dalam y dan z. w memiliki nilai tidak terdefinisi. x memiliki nilai = 2 karena hanya 2 input yang berhasil dibaca oleh komputer.
+What is x value if 3 character values given as the input?
+ketika input 3 character ke dalam fungsi, fungsi tidak akan bisa membaca karena scanf yang digunakan hanya bisa membaca integer atau angka numerik sehingga nilai dari x = 0 karena tidak ada data yang terbaca.
+2. char ss1[40];
+char ss2[40];
+x = scanf("%s %s", ss1, ss2);
+What is ss1 and ss2, if the input from keyboard is "Good morning everyone"?
+ss1 dan ss2 hanya membaca input sampai spasi terbaca sehingga, ketika di input "Good morning everyone", ss1 akan berisi Good dan ss2 berisi morning. everyone tidak akan terbaca. 
+What is x if the input is "Class 1PAT"?
+karena input hanya terdiri dari 2 kata, maka ss1 = Class dan ss2 = 1PAT. karena 2 input terisi, maka nilai dari x adalah x = 2.
+3. char ss[40];
+scanf("%4s", ss); // Input: "Good morning"
+Jawaban : nilai dari ss ketika input "Good morning" adalah Good. Karena format scanf adalah %4s, sehingga hanya membaca maksimal 4 karakter awal, dan %4s membaca hanya sampai spasi, maka nilai dari ss adalah "Good"
+4. char ch;
+ch = getchar(); // Input: "Binus"
+Jawaban : karena menggunakan getchar, maka ch akan membaca kata pertama dari input yaitu B.
+5. char ch1, ch2;
+ch1 = getchar(); // Input: "Binus"
+ch2 = getchar();
+Jawaban : ch1 dan ch2 menggunakan getchar sehingga ketika menerima input Binus, ch1 akan membaca karakter pertama yaitu B dan ch2 membaca karakter kedua yaitu i.
+6. lampiran kode
+7. Pada saat gender = getchar() dilakukan, char yang masih tersisa di dalam fungsi tersebut adalah \n karena input dari nim sebelumnya. ketika nim diinput, masih ada \n yang dimana dibaca oleh getchar. sehingga kita harus membersihkan terlebih dahulu dengen getchar lalu melakukan getchar lagi untuk bisa membaca gendernya.
+8. Input dari kode yang diberikan adalah
+10 % 3 = 1
+10 % 3 = 1
+Welcome to Binus everyone
+Welcome to Binus everyone
+fungsi printf(ss) dan printf ("%s", ss) adalah 2 cara untuk mencetak hasil sesuai dengan isi dari data yang dipanggil. Tetapi, cara yang kedua adalah cara yang lebih aman untuk digunakan (printf ("%s", ss)).
