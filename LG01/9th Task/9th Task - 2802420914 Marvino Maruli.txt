@@ -1,0 +1,21 @@
+Nama : Marvino Maruli
+NIM : 28024200914
+
+1. hasil dari input 7, 4, dan 9.
+ Enter integer : 7 (karena 7 tidak masuk ke logic %2 = 0 dan %3 = 0, maka outputnya bottom of loop)
+	 Bottom of loop.
+ Enter integer : 4 (4 masuk ke dalam logic %2 = 0 sehingga continue)
+ Enter integer : 9 (9 masuk ke dalam logic %3 = 0 sehingga break, lalu fungsinya kan berhenti dan memberikan output Outside of loop)
+	 Outside of loop.
+
+2. Lampiran Kode
+
+3. kode IF yang ada di dalam gambar berhubungan dengan if(a > b) karena terdekat dari elsenya. untuk perbaikan bentuk kodenya agar lebih mudah dibaca :
+if (n > 0) {
+    if (a > b) {
+        z = a;
+    } else {
+        z = b;
+    }
+}
+
