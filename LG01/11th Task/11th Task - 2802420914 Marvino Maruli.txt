@@ -1,0 +1,62 @@
+Nama : Marvino Maruli
+NIM : 2802420914
+
+1. a. jika k < n, maka jumlah iterasinya adalah n-k kali karena tidak diketahui nilai dari k. n-k kali cetak.
+b. jika k = n, maka tidak akan terjadi iterasi karena k sudah sama dengan n, i tidak bisa looping. 0 kali Cetak
+c. jika k > n, maka tidak akan terjadi iterasi karena k sudah melebihi nilai n, i tidak bisa looping. 0 kali cetak.
+
+2. a. jika k < n, maka tidak akan terjaid iterasi karena k lebih kecil dari n, tidak bisa looping. 0 kali cetak.
+b. jika k = n, akan terjadi 1 kali iterasi karena k memiliki nilai yang sama dengan n. 1 kali cetak.
+jika k > n, maka terjadi k - n + 1 karena k melebihi nilai n, sehingga nilai n ditambahkan 1. k - n + 1 kali cetak.
+
+3. 
+a. for(;e;) p; menjadi while (e) p;
+b. for(;;e) p; merupakan ekspresi yang salah karena e seharusnya berada di dalam semicolon, tetapi jika dijadikan bentuk while = while (1) p; e;
+
+4. 
+a. for (i=0, j=1; i<8; i++, j++)
+    printf("%d + %d = %d\n", i, j, i+j);
+Jawaban: pada awal iterasi, i = 0 dan j = 1 sehingga 0 + 1 = 1. tahap selanjutnya adalah increment nilai dari i dan j.
+0 + 1 = 1
+1 + 2 = 3
+2 + 3 = 5
+3 + 4 = 7
+4 + 5 = 9
+5 + 6 = 11
+6 + 7 = 13
+7 + 8 = 15
+b. for (i=0, j=1; i<8; ++i, ++j);
+printf("%d + %d = %d\n", i, j, i+j);
+Jawaban: karena loop tersebut ditutup dengan ; pada akhir for, maka i dan j akan diiterasi hingga value maksimal masing masing terlebih dahulu lalu di print sesuai dengan nilai i dan j yang diiterasi.
+8 + 9 = 17
+
+5.
+a. hasil dari fungsi pertama adalah 1 3 1 2 1 1 2 3 2 2 2 1 3 3 3 2 3 1.
+iterasi dimulai dari nilai x = 1 dan y = 3. lalu karena y berada di dalam x, y akan dikurangi setiap loop. setelah y = 0, maka x akan increment dan iterasi diulangi.
+b. hasil dari fungsi kedua adalah 4 3 4 2 4 1. karena x memiliki semicolon di akhir fungsi, maka fungsi fornya hanya akan sampai iterasi x mencapai maksimal. hasil dari iterasi x adalah x = 4 karena batas dari x <= 3 berarti 3 masih bisa diincrement menjadi 4 lalu baru berhenti. lalu fungsi for y akan berjalan seperti biasa.
+
+6. 
+a. hasil dari fungsi pertama adalah 1 0 2 0 3 0, karena fungsi for y ditutup dengan ;, maka nilai y akan diiterasi hingga nilai tidak bisa diloop lagi yaitu y = 0, lalu x akan mencetak mulai dari angka 1 hingga limitnya.
+b. hasil dari fungsi kedua adalah 4 0, karena fungsi for x dan y ditutup dengan ;, maka masing masing for akan iterasi hingga nilai akhir mereka yaitu x = 4 dan y = 0, maka hasil cetaknya adalah 4 dan 0.
+
+7. Hasil output:
+Score =0, Total =0
+Score =1, Total =1
+Score =2, Total =3
+Score =3, Total =6
+Score =4, Total =10
+Score =5, Total =15
+Score =6, Total =21
+Score =7, Total =28
+Score =8, Total =36
+Score =9, Total =45
+score dan total dimulai dari 0, lalu naik ke 1. karena total menggunakan operand += score, maka nilai dari score ditambahkan dengan nilai score saat itu.
+total nilai score = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9.
+
+8.menggunakan fungsi yang disediakan, jika inputnya adalah 5, maka outputnya adalah 120. fungsi ini menggunakan konsep faktorial.
+pada fungsi while, x menggunakan operand *= maka hasilnya adalah 5 * 4 * 3 * 2 * 1 = 120.
+
+9. lampiran kode.
+10. lampiran kode.
+
+Google drive : https://drive.google.com/drive/folders/1IGLb_g4IbPSpz1MlOlNTmL-VSmo6aiZX?usp=drive_link
