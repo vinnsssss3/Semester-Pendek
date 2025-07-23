@@ -1,0 +1,3 @@
+Modular Programming adalah pendekatan yang digunakan dalam program dimana fungsi akan dibagi menjadi beberapa bagian kecil dan bisa digunakan lagi. bagian-bagian kecil dari fungsi ini disebut dengan modul. suatu modul yang akan menangani satu tugas khusus dan bisa digunakan lagi.  
+
+perbedaan antara recursive dan iterative adalah iterative merupakan proses pengulangan (repetition) sedangkan recursive adalah proses pemanggilan fungsi diluar main untuk digunakan. iterative secara pengertian adalah proses pengulangan dan prosesnya terjadi dengan cepat. sedangkan recursive adalah fungsi yang memanggil fungsi lain ataupun fungsi itu sendiri di dalam proses yang terjadi. recursive lebih banyak digunakan untuk program-program yang berulang dalam struktur seperti tree.
