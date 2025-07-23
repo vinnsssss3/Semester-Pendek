@@ -2,7 +2,8 @@
 
 int main() {
     int tinggi;
-
+    
+    printf("Tinggi Segitiga : ");
     scanf("%d", &tinggi);
 
     for (int i = 1; i <= tinggi; i++) {
