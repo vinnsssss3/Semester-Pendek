@@ -1,0 +1,20 @@
+5. 
+a. A[1][1] = 7
+b. B[2][2] = 0
+c. A[2][3] = 12
+d. B[0][1] = 2
+e. A[0][2] = 2
+
+6. perbedaan antara kedua kode tersebut adalah str[] merupakan array of strings sedangkan *str adalah pointer yang menunjuk langsung isi string. isi dari str[] bisa diubah tetapi *str tidak bisa diubah karena *str adalah sebuah pointer.
+
+7. char *name[] adalah sebuah array dari pointer yang memiliki sejumlah isi string di dalamnya. char[][10] adalah sebuah array 2d yang memiliki string. perbedaan dari kedua char tersebut adalah char name[][10] memiliki isi array yang tetap dan isinya bisa diubah, dibandingkan char *name[] yang merupakan sebuah pointer sehingga susah untuk diubah isi dari pointer tersebut.
+
+8. 
+a. isalpha(int c) adalah fungsi yang melakukan pengecekan apakah c adalah sebuah alphabet. 
+b. isupper(int c) adalah fungsi yang melakukan pengecekan apakah c adalah huruf Kapital
+c. islower(int c) adalah fungsi yang melakukan pengecekan apakah c adalah huruf kecil.
+d. isdigit(int c) adalah fungsi yang melakukan pengecekan apakah c adalah sebuah angka.
+e. isalnum(int c) adalah fungsi yang melakukan pengecekan apakah c adalah sebuah angka dan alphabet.
+f. isspace(int c) adalah fungsi yang melakukan pengecekan apakah c adalah sebuah space, tab, dll.
+g. toupper(int c) adalah fungsi yang akan mengubah c dari huruf kecil menjadi huruf kapital. jika sudah huruf kapital tetap sama.
+h. tolower(int c) adalah fungsi yang akan mengubah c dari huruf kapital menjadi huruf kecil. jika sudah huruf kecil tetap sama.
