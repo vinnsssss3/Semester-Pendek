@@ -1,0 +1,30 @@
+1.  
+a. void *malloc(size_t size); alokasikan size byte memory. 
+b. void *calloc(size_t num, size_t size); alokasikan num blok, masing-masing size byte. 
+c. void *realloc(void *ptr, size_t size); mengubah ukuran blok memori yang telah dialokasikan sebelumnya. 
+d. void free(void *ptr); mengembalikan alokasi memori ke sistem(heap).
+
+2. void (*ptr[3])(int) = {function1, function2, function3}; 
+ptr adalah pointer yang berukuran 3 menuju ke fungsi. setiap element dari ptr adalah int dan akan dikembalikan ke void.
+
+3.  
+a. #ifdef ... #endif melihat apakah macro sudah didefinisikan. 
+b. #error menghasilkan pesan error jika kondisi terpenuhi 
+c. #pragma untuk memberikan instruksi khusus kepada compiler. tergantung compiler. 
+d. #line mengatur nomor baris dan nama file untuk debugging. 
+e. #ifndef ... #endif cek apakah makro belum didefinisikan. dipakai untuk header guard.
+
+4.  
+a. __LINE__ digunakan untuk menunjukkan nomor baris saat ini di dalam file. 
+b. __FILE__ digunakan untuk menunjukkan nama file sumber saat ini. 
+c. __DATE__ digunakan untuk menunjukkan tanggal kompilasi (format: "Mmm dd yyyy"). 
+d. __TIME__ digunakan untuk menunjukkan waktu kompilasi (format: "hh:mm:ss").
+
+5. Kelebihan:
+-Lebih cepat karena makro hanya replace text, tidak ada pemanggilan fungsi.
+-Bisa digunakan untuk nilai konstan atau perhitungan sederhana.
+
+Kekurangan:
+-Tidak memiliki type safety (tidak dicek tipe data).
+-Susah untuk di-debug karena tidak muncul di stack trace.
+-Bisa menyebabkan unexpected behavior jika tidak menggunakan tanda kurung dengan benar.
