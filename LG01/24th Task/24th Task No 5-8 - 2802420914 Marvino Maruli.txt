@@ -1,0 +1,4 @@
+5. void rewind(FILE* stream): mengembalikan pointer file ke awal.
+6. int fseek(FILE* stream, long offset, int origin): memindahkan pointer file ke posisi tertentu.
+7. long ftell(FILE* stream): memberitahu posisi pointer dalam file.
+8. untuk mengetahui besar dari suatu file, bisa digunakan fseek() dan ftell(). fseek digunakan untuk memindahkaan pointer file ke posisi terakhir, dan ftell akan memberikan informasi posisi dari pointernya, yang sama dengan ukuran dalam byte. 
