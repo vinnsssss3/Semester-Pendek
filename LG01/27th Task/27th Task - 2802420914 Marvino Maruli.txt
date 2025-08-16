@@ -1,0 +1,3 @@
+Linear Search adalah sebuah cara untuk mencari yang melihat data satu persatu dari awal hingga ke akhir. metode linear search adalah salah satu metode search yang sangat sederhana tetapi hanya untuk data kecil. untuk data lama akan membutuhkan waktu yang lama.
+binary search adalah metode searching yang membutuhkan data urut. metode ini membagi array menjadi 2 lalu melihat apakah di tengah, di kanan, atau di kiri dari data tengahnya. metode ini sangat cepat dalam mencari data. 
+interpolation search adalah metode yang mirip dengan binary search, tetapi menggunakan metode perhitungan mencari mid yang lebih rumit berdasarkan distribusi data. 
