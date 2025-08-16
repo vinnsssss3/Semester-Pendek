@@ -1,0 +1,49 @@
+1. Linear Search
+Key = 57
+Cek i=0:12≠57 → i=1:24≠57 → i=2:39≠57 → i=3:57=✓
+Hasil: index 3, perbandingan 4.
+
+Key = 75
+i=0:12 ≠ → 1:24 ≠ → 2:39 ≠ → 3:57 ≠ → 4:66 ≠ → 5:68 ≠ → 6:75=✓
+Hasil: index 6, perbandingan 7.
+
+Key = 24
+i=0:12 ≠ → 1:24=✓
+Hasil: index 1, perbandingan 2.
+
+2. Binary Search (array sudah diurutkan)
+
+Key = 57
+low=0, high=8 → mid=4 (66) >57 ⇒ high=3
+low=0, high=3 → mid=1 (24) <57 ⇒ low=2
+low=2, high=3 → mid=2 (39) <57 ⇒ low=3
+low=3, high=3 → mid=3 (57) =✓
+Hasil: index 3, iterasi 4.
+
+Key = 75
+low=0, high=8 → mid=4 (66) <75 ⇒ low=5
+low=5, high=8 → mid=6 (75) =✓
+Hasil: index 6, iterasi 2.
+
+Key = 24
+low=0, high=8 → mid=4 (66) >24 ⇒ high=3
+low=0, high=3 → mid=1 (24) =✓
+Hasil: index 1, iterasi 2.
+
+3. Interpolation Search 
+
+Key = 57
+min=0(12), max=8(98) → mid ≈ 0 + ((57−12)*8)/(98−12) = 360/86 = 4 → A[4]=66 >57 ⇒ max=3
+Kondisi loop berhenti (key tidak di antara A[min] dan A[max] secara ketat) → cek batas: A[max]=A[3]=57 =✓
+Hasil: index 3, 1 kali perhitungan mid (+cek batas).
+
+
+Key = 75
+min=0(12), max=8(98) → mid ≈ (63*8)/86 = 5 → A[5]=68 <75 ⇒ min=6
+Loop berhenti → cek batas: A[min]=A[6]=75 =✓
+Hasil: index 6, 1 kali perhitungan mid (+cek batas).
+
+Key = 24s
+min=0(12), max=8(98) → mid ≈ (12*8)/86 = 1 → A[1]=24 =✓
+Hasil: index 1, langsung ketemu (1 kali perhitungan mid).
+
